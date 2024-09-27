@@ -11,17 +11,25 @@ Before using this script, ensure you have the following prerequisites installed:
 
    ```bash
    python3 --version
+   ```
 
    If Python is not installed, install it using the following command for Ubuntu/Debian-based systems:
 
+   ```bash
    sudo apt update
+   ```
+   ```bash
    sudo apt install python3 python3-pip
-
+   ```
 
 2. This script uses the colorama package to display colored text in the terminal. It also requires the pandas libray Install them by running:
    
+   ```bash
    pip3 install colorama
+   ```
+   ```bash
    pip 3 install pandas
+   ```
 
 ## Installation
 
@@ -29,11 +37,15 @@ Before using this script, ensure you have the following prerequisites installed:
 
 2. Use the git clone command to clone the repository:
 
+   ```bash
    git clone https://github.com/ChiefCyberPapa/DehashedCompare.git
-
+   ```
+   
 3. Navigate to the cloned directory:
 
+   ```bash
    cd DehashedCompare
+   ```
    
 ## Usage
 
@@ -43,15 +55,15 @@ Note: The script assumes you have a column on your email list CSV that you want 
 
     In the terminal, navigate to the directory where the script is stored:
 
-    bash
-
+    ```bash
     cd path_to_directory/DehashedExport
+    ```
 
 2. Run the Python script:
 
-    bash
-
+    ```bash
     python3 DehashedCompare.py
+    ```
 
 3. python dehashed_compare.py
 
